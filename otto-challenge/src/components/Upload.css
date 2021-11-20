@@ -1,0 +1,6 @@
+.vertical-scrollable {
+    height: 200px;
+    width: 500px;
+    overflow-y: scroll; 
+    overflow-x: hidden;
+  }
