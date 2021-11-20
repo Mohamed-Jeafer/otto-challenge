@@ -1,6 +1,6 @@
 const express = require("express");
 const fileUpload = require("express-fileupload");
-const { exec, execFile, execFileSync } = require("child_process");
+const { exec, execFile } = require("child_process");
 const { v4: uuidv4 } = require("uuid");
 
 const fs = require("fs");
